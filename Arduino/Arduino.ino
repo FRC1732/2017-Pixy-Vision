@@ -62,7 +62,7 @@ void loop()
     
     // do this (print) every 50 frames because printing every
     // frame would bog down the Arduino
-    if (i%5==0)
+    if (i%20==0)
     {
       sprintf(buf, "$");
       Serial.print(buf);
